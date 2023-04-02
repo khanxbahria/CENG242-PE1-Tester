@@ -87,8 +87,10 @@ testcasesQ4 = [
     
     -- Custom
     (6, makeRecipe stock3 toast, []),
-    (7, makeRecipe [("Olive Oil", 0.9033), ("Cheese", 50.99)] (Recipe "" [("Olive Oil", 0.2), ("Cheese", 50.99)]), [("Olive Oil",0.7)]),
-    (8, makeRecipe [("Mospel", 0.9063)] tomatoPasta, [("Mospel", 0.91)])
+    (7, makeRecipe [("Olive Oil", 0.001), ("Cheese", 50.99)] (Recipe "" [("Olive Oil", 0.2), ("Cheese", 50.99)]),    [("Cheese",50.99)]),
+    (8, makeRecipe [("Mospel", 0.9063)] tomatoPasta, [("Mospel", 0.91)]),
+    (9, makeRecipe [("Olive Oil", 0.9033), ("Cheese", 50.99)] (Recipe "" [("Olive Oil", 0.2), ("Cheese", 50.99)]),   [("Olive Oil",0.7)])
+
 
     
     
